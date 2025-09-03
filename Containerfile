@@ -7,3 +7,4 @@ RUN cargo install ldproxy
 RUN cargo install espup --locked
 RUN cargo install espflash
 RUN cargo install cargo-espflash
+RUN espup install
